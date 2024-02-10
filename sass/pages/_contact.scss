@@ -1,0 +1,148 @@
+.contact {
+  background-image: url("../images/Oval.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  width: 1110px;
+  background-color: $peach-color;
+  border-radius: 18px;
+  height: 480px;
+  margin-bottom: 160px;
+  display: flex;
+  position: relative;
+  img {
+    top: 19px;
+    right: 30px;
+    position: absolute;
+  }
+}
+
+.contact__text {
+  margin-top: 135px;
+  margin-left: 95px;
+  margin-right: auto;
+  color: $white-color;
+  margin-left: -3px;
+
+  h2 {
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+}
+
+.contact_description {
+  color: $white-color;
+  width: 445px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__social {
+  margin-top: 65px;
+
+  label {
+    cursor: pointer;
+    margin-bottom: -6px;
+    display: block;
+    color: $white-color;
+    opacity: 0.5;
+  }
+  input {
+    cursor: pointer;
+    height: 20px;
+    width: 200px;
+    border: none;
+    background-color: $peach-color;
+  }
+}
+.contact_line {
+  cursor: pointer;
+  width: 380px;
+  height: 0.5px;
+  background-color: $white-color;
+  opacity: 0.5;
+  margin-bottom: 28px;
+  position: relative;
+  &:hover {
+    background: $white-color;
+    opacity: 1;
+    height: 3.5px;
+  }
+}
+
+.main_lasts {
+  display: flex;
+  align-items: center;
+  background-color: $peach-color;
+  border-radius: 12px;
+  height: 292px;
+  width: 1110px;
+  background-image: url("../images/smal\ ball.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -160px;
+}
+
+.footer {
+  background-color: $black-color;
+  height: 393px;
+  margin-top: -135px;
+}
+
+.footer_top {
+  padding-top: 165px;
+  display: flex;
+  align-items: center;
+  gap: 445px;
+  margin-top: 71px;
+  margin-bottom: 70px;
+}
+
+.footer_sitenav_item {
+  display: flex;
+  gap: 40px;
+  margin-left: 120px;
+}
+
+.footer_sitenav_link {
+  color: $white-color;
+}
+
+.line {
+  width: 1110px;
+  height: 1px;
+  background-color: $dark-grey;
+  margin-top: -5px;
+  margin-bottom: 31px;
+}
+
+.footer_last_page {
+  display: flex;
+  gap: 230px;
+}
+
+.footer_locations {
+  color: $white-color;
+  opacity: 0.5;
+}
+.footer_location_p {
+  width: 200px;
+}
+.footer_emergencys {
+  color: $white-color;
+  opacity: 0.5;
+  a {
+    color: $white-color;
+    opacity: 0.5;
+  }
+  li {
+    list-style: none;
+  }
+}
+.footer__social {
+  ul {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+}

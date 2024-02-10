@@ -1,0 +1,17 @@
+.btn-dark button {
+  @include button($dark-grey, $white-color);
+  text-decoration: none;
+
+  &:hover {
+    @include button_hover($white-color, $light-peach);
+  }
+}
+
+.btn-light button {
+  @include button($white-color, $peach-color);
+  text-decoration: none;
+
+  &:hover {
+    @include button_hover($white-color, $light-peach);
+  }
+}

@@ -1,0 +1,40 @@
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin fonts(
+  $font-size: "inherit",
+  $line-height: "normal",
+  $letter-spacing: "normal"
+) {
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin button($color, $bg-color, $border-color: transparent) {
+  padding: {
+    top: 18px;
+    bottom: 16px;
+    left: 24px;
+    right: 25px;
+  }
+  cursor: pointer;
+  font-weight: 500;
+  width: 200px;
+  height: 56px;
+  border-radius: 8px;
+  color: $color;
+  background-color: $bg-color;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  border: 1px solid $border-color;
+}
+
+@mixin button_hover($color, $bg-color) {
+  background-color: $bg-color;
+  color: $color;
+}

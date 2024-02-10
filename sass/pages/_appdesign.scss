@@ -1,0 +1,58 @@
+.web_thum {
+display: flex;
+margin-bottom: 160px;
+margin-top: 32px;
+margin-right: 380px;
+
+  }
+  .web_projects {
+    width: 350px;
+    height: 478px;
+    border-radius: 15px;
+    background-color: #fdf3f0;
+    margin-right: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: $peach-color;
+    }
+  }  
+
+  .web_img_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/home/desktop/image-web-design-large.jpg");
+    background-repeat: no-repeat;
+    height: 308px;
+    width: 541px;
+    border-radius: 8px;
+  }
+  
+  .web_img_1:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.6),
+        rgba(231, 129, 107, 0.6)
+      ),
+      url("../images/home/desktop/image-web-design-large.jpg");
+  }
+
+  .web__text1 {
+  margin-top: -140px;
+    p {
+        color: $white-color;
+    }
+  h3 {  
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  i {
+    color: $peach-color;
+  }
+  a {
+    letter-spacing: 5px;
+    color: $white-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 273px;
+  }
+}

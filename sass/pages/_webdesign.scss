@@ -1,0 +1,131 @@
+.web_hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $peach-color;
+  border-radius: 12px;
+  height: 292px;
+  width: 1110px;
+  background-image: url("../images/smal\ ball.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.web_hero_text {
+  margin-top: 20px;
+  margin-left: 45px;
+  color: $white-color;
+  font-weight: 400;
+  h1 {
+    font-weight: 500;
+    text-align: center;
+  }
+  p {
+    color: $white-color;
+    width: 480px;
+    text-align: center;
+  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+  background-color: #fdf3f0;
+  margin-right: 30px;
+  cursor: pointer;
+  &:hover {
+    background-color: $peach-color;
+  }
+}
+
+h4 {
+  color: #e7816b;
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 5px;
+  padding-top: 26px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  &:hover {
+    color: $white-color;
+  }
+}
+
+p {
+  color: #333136;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  cursor: pointer;
+  &:hover {
+    color: $white-color;
+  }
+}
+
+.thum1 {
+  display: flex;
+  padding-left: 165px;
+  padding-top: 160px;
+  padding-right: 165px;
+}
+
+.thum {
+  display: flex;
+  padding-left: 165px;
+  padding-top: 32px;
+  padding-right: 165px;
+  margin-bottom: 160px;
+}
+
+.web__images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+.web__img_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home/desktop/image-app-design.jpg");
+  background-repeat: no-repeat;
+  height: 308px;
+  width: 541px;
+  border-radius: 8px;
+  left: 618px;
+  bottom: 332px;
+}
+
+.web__img_2:hover {
+  background-image: linear-gradient(
+      rgba(231, 129, 107, 0.6),
+      rgba(231, 129, 107, 0.6)
+    ),
+    url("../images/home/desktop/image-app-design.jpg");
+}
+
+.web__img_3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/home/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  width: 541px;
+  height: 308px;
+  border-radius: 8px;
+  right: 50px;
+  bottom: 1px;
+}
+
+.web__img_3:hover {
+  background-image: linear-gradient(
+      rgba(231, 129, 107, 0.6),
+      rgba(231, 129, 107, 0.6)
+    ),
+    url("../images/home/desktop/image-graphic-design.jpg");
+}

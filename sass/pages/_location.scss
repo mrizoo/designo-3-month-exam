@@ -1,0 +1,169 @@
+.location_wrapper1 {
+  background-image: url("../images/double\ oval.png");
+  margin-right: auto;
+  border-radius: 15px;
+  display: flex;
+  gap: 210px;
+  margin-bottom: 30px;
+  background-color: #fdf3f0;
+  width: 730px;
+  height: 326px;
+}
+
+.location_section {
+  margin-left: 45px;
+  margin-top: 30px;
+  display: flex;
+  gap: 230px;
+}
+
+.location {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.location_section h2 {
+  font-weight: 400;
+  margin-top: 45px;
+  color: $peach-color;
+}
+.location_p {
+  width: 200px;
+}
+
+.location_title {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.location_emergency {
+  li {
+    margin-left: -50px;
+  }
+  margin-left: -30px;
+  margin-top: 145px;
+  color: $dark-grey;
+  a {
+    color: $dark-grey;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.map__canada {
+  iframe {
+    border-radius: 15px;
+  }
+}
+//  ========================
+.location_section2 {
+  display: flex;
+  gap: 230px;
+}
+
+.location2 {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.location_section2 h2 {
+    font-weight: 400;
+  margin-top: 45px;
+  color: $peach-color;
+}
+.location_p2 {
+  width: 200px;
+}
+
+.location_title2 {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+
+.location_emergency2 {
+  margin-left: -50px;
+  margin-top: 135px;
+  color: $dark-grey;
+  a {
+    color: $dark-grey;
+  }
+  li {
+    list-style: none;
+  }
+}
+
+.locate_wrapper {
+  background-image: url("../images/double\ oval.png");
+  width: 730px;
+  height: 326px;
+  background-color: #fdf3f0;
+  display: flex;
+  gap: 210px;
+  border-radius: 12px;
+  padding: 4px 35px;
+ 
+}
+
+.map_australia {
+  iframe {
+    border-radius: 15px;
+  }
+}
+
+// ======================
+
+.location3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+  .map__uk {
+    iframe {
+      border-radius: 15px;
+    }
+  }
+}
+
+.location_wrapper {
+  background-image: url("../images/double\ oval.png");
+  display: flex;
+  background-color: #fdf3f0;
+  width: 730px;
+  height: 326px;
+  border-radius: 15px;
+  gap: 210px;
+  margin-right: auto;
+}
+
+.location_section3 {
+  margin-top: 48px;
+  margin-left: 40px;
+
+  h2 {
+    margin-bottom: -10px;
+    font-weight: 400;
+    color: $peach-color;
+  }
+  .location_title3 {
+    margin-top: 40px;
+  }
+
+  p {
+    padding-top: 24px;
+  }
+}
+
+.location_emergency3 {
+  margin-left: -210px;
+  padding-top: 40px;
+  margin-top: 85px;
+  color: $dark-grey;
+  a {
+    color: $dark-grey;
+  }
+  li {
+    list-style: none;
+  }
+}

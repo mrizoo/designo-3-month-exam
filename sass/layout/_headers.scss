@@ -1,0 +1,20 @@
+// HOME HEADER
+
+.header_top {
+  display: flex;
+  align-items: center;
+  gap: 545px;
+  margin-top: 71px;
+  margin-bottom: 70px;
+ 
+}
+
+.header_sitenav_item {
+  display: flex;
+  gap: 42px;
+}
+
+.header_sitenav_link {
+  color: $dark-grey;
+}
+
